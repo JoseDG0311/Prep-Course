@@ -1,0 +1,70 @@
+Hola mi nombre es Jose Daniel Giraldo.
+Hoy les vengo a explicar los operadores logicos y Bucles for, para asi poder tener un mejor conocimiento a la hora de codear.
+
+Comenzaremos con el bucle for.
+
+ para poder lograr constuir este bucle primero debemos colocar despues de "for" un parentesis"()", en el cual daremos nuestros argumentos.
+ despues de el parentesis debemos poner unas llaves "{}".
+
+ Que este quede asi:
+     
+     for (// aqui vendrian los argumentos){
+        // aqui la o las ordenes por decirlo asi
+     }
+
+Dentro de el parentesis debemos colocar estos tres argumentos en el orden en el cual esta especificado.
+
+Primero declaramos una variable, esta es sobre la cual el bucle se repitira.
+
+Segundo escribimos la exprecion condicional, el ciclo se continuara hasta que esta sea falsa por lo cual debemos colocar una valor el cual
+  cumpla con las caracteristicas para no hacer un bucle infinito
+
+Tercero incrementamos nuestra variable con el operador ++
+
+NOTA:Las tres declaraciones deben estar separadas por un punto y coma ";".
+
+Entonces for quedaria construida asi:
+
+    for (var j = 0              ; j < 10                 ; j++){
+     //  declaramos la funcion  | exprecion condicional  | incrementamos la variable 
+    console.log(j);
+    //  orden    
+    }
+
+Ahora daremos lugar a aprender los operadores logicos.
+Los operadores logicos son como lo dice su nombre operadores que ayudaran a comparar dos expresiones y asi arrojar un resultado "true" o "false" segun que tipo de operador estemos utilizando.
+
+el primer operador que veremos sera && ("Y" o "AND"),siempre estara escrito dos veces y evaluara ambas expresiones y si ambas son verdaderas este arrojara "true" pero si una o ambas 
+son falsas este devolvera "false".
+    
+    if (10 <= 12 && 13 > 11){
+        console.log("Ambas declaraciones son true por lo cual se arrojara este codigo.");
+    }
+
+    if (54 < 76 && 23 === 34){
+        console.log("Una de las declaraciones es false por lo cual no se arrojara el codigo");
+    }
+
+El segundo operador que veremos sera || ("O" o "OR"), Comparara ambas expresiones
+  y si ambas o una de las expresiones es true entoces arrojara true, de lo contrario si ambas son false Entonces
+  el codigo no se ejecutara.
+
+    if (21 < 43 || 34 > 90){
+        console.log("El codigo se ejecutara por que una de las expresiones era true");
+    }
+
+    if (34 >= 87 || 32 < 21){
+        console.log("Este codigo no se ejecutara porque ambas declaraciones son false");
+    }
+
+El tercer operador que veremos sera ! ("NO" o "NOT"), el operador NOT devolvera el valor booleano opuesto al que se le pasa:
+
+    if (!false){
+        console.log("el dovolvera true por que es lo contrario a false por lo cual es codigo se ejecutara");
+    }
+
+    if (!(1 === 1)) {
+        console.log("el codigo no se ejecutara por que la operacion 1 igual a 1 es true por lo cual ! arrojara lo contrario que es false y no se ejecutara el codigo")
+    }
+    
+
