@@ -1,0 +1,10 @@
+Que es un array?
+un array es unn arreglo en el que podemos colocar cualquier numero de valores y guardarlos en una variable para llamarlos cuando los necesitemos.
+Ejemplo:
+    var array[valor1, valor2. valor3, valor4];  // esos son los valores que guardamos en nuestro array para luego llamarlo cuando lo nesecitemos.
+
+Cuando nesecitemos llamar a uno tendremos que comenzar con el numero 0, el primero valor que tengamos en el array en su asignacion siempre sera el 0
+ejemplo:
+    var array[valor1, valor2. valor3, valor4]
+        return array[0]; // valor1
+        console.log(array[3]); // valor4
