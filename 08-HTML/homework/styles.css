@@ -1,0 +1,15 @@
+img {
+    width: 400px;
+}
+#ThirdDiv {
+    height: 600px;
+    width: 500px;
+    color: rgb(243, 8, 8);
+    background-color: rgb(249, 249, 253);
+    padding: 50px;
+    border: 1rem solid;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
